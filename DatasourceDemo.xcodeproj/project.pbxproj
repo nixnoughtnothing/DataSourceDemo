@@ -66,11 +66,11 @@
 		B71A47CA1E3389EC00063592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7B6E56A1E33B7EF000CA782 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		B7B6E56C1E33B88E000CA782 /* DemoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoView.xib; sourceTree = "<group>"; };
-		B7B6E5741E33BAC4000CA782 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataSource.swift; path = ../Models/DataSource.swift; sourceTree = "<group>"; };
+		B7B6E5741E33BAC4000CA782 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataSource.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		B7B6E5761E33BBBD000CA782 /* DemoViewCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewCollectionViewCell.xib; sourceTree = "<group>"; };
 		B7B6E57B1E33C1DF000CA782 /* DemoViewCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewCollectionViewCell.swift; sourceTree = "<group>"; };
 		B7B6E57D1E33C1FE000CA782 /* DemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
-		B7B6E57F1E33C38E000CA782 /* FlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlowLayout.swift; path = ../Models/FlowLayout.swift; sourceTree = "<group>"; };
+		B7B6E57F1E33C38E000CA782 /* FlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlowLayout.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
 		CBC80DA3B43C8DCD8D484F97 /* Pods-DatasourceDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatasourceDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DatasourceDemoUITests/Pods-DatasourceDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E97121DD54AA61D3CFEB042C /* Pods_DatasourceDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DatasourceDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -152,10 +152,10 @@
 		B71A47A71E3389EC00063592 /* DatasourceDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B7B6E5831E33D01B000CA782 /* Resources */,
-				B7B6E5701E33B957000CA782 /* Layouts */,
-				B7B6E57A1E33C1C5000CA782 /* Views */,
 				B7B6E56E1E33B93A000CA782 /* Controllers */,
+				B7B6E5701E33B957000CA782 /* Layouts */,
+				B7B6E5831E33D01B000CA782 /* Resources */,
+				B7B6E57A1E33C1C5000CA782 /* Views */,
 				B71A47A81E3389EC00063592 /* AppDelegate.swift */,
 			);
 			path = DatasourceDemo;
@@ -182,8 +182,8 @@
 		B7B6E56E1E33B93A000CA782 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				B71A47AA1E3389EC00063592 /* DemoViewController.swift */,
 				B7B6E5741E33BAC4000CA782 /* DataSource.swift */,
+				B71A47AA1E3389EC00063592 /* DemoViewController.swift */,
 				B7B6E57F1E33C38E000CA782 /* FlowLayout.swift */,
 			);
 			path = Controllers;
@@ -228,10 +228,11 @@
 		B7B6E5831E33D01B000CA782 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B71A47B41E3389EC00063592 /* Info.plist */,
 				B71A47AF1E3389EC00063592 /* Assets.xcassets */,
+				B71A47B41E3389EC00063592 /* Info.plist */,
 			);
 			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -695,7 +696,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B523L54ZLB;
-				INFOPLIST_FILE = DatasourceDemo/Info.plist;
+				INFOPLIST_FILE = DatasourceDemo/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ios.datasourceDemo;
@@ -711,7 +712,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B523L54ZLB;
-				INFOPLIST_FILE = DatasourceDemo/Info.plist;
+				INFOPLIST_FILE = DatasourceDemo/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ios.datasourceDemo;
