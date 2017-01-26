@@ -23,7 +23,6 @@
 		B7B6E5771E33BBBD000CA782 /* DemoViewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7B6E5761E33BBBD000CA782 /* DemoViewCollectionViewCell.xib */; };
 		B7B6E57C1E33C1DF000CA782 /* DemoViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B6E57B1E33C1DF000CA782 /* DemoViewCollectionViewCell.swift */; };
 		B7B6E57E1E33C1FE000CA782 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B6E57D1E33C1FE000CA782 /* DemoView.swift */; };
-		B7B6E5801E33C38E000CA782 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B6E57F1E33C38E000CA782 /* FlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,11 +65,10 @@
 		B71A47CA1E3389EC00063592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7B6E56A1E33B7EF000CA782 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		B7B6E56C1E33B88E000CA782 /* DemoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoView.xib; sourceTree = "<group>"; };
-		B7B6E5741E33BAC4000CA782 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataSource.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		B7B6E5741E33BAC4000CA782 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		B7B6E5761E33BBBD000CA782 /* DemoViewCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewCollectionViewCell.xib; sourceTree = "<group>"; };
 		B7B6E57B1E33C1DF000CA782 /* DemoViewCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewCollectionViewCell.swift; sourceTree = "<group>"; };
 		B7B6E57D1E33C1FE000CA782 /* DemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
-		B7B6E57F1E33C38E000CA782 /* FlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlowLayout.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
 		CBC80DA3B43C8DCD8D484F97 /* Pods-DatasourceDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatasourceDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DatasourceDemoUITests/Pods-DatasourceDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E97121DD54AA61D3CFEB042C /* Pods_DatasourceDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DatasourceDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -184,7 +182,6 @@
 			children = (
 				B7B6E5741E33BAC4000CA782 /* DataSource.swift */,
 				B71A47AA1E3389EC00063592 /* DemoViewController.swift */,
-				B7B6E57F1E33C38E000CA782 /* FlowLayout.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -231,7 +228,6 @@
 				B71A47AF1E3389EC00063592 /* Assets.xcassets */,
 				B71A47B41E3389EC00063592 /* Info.plist */,
 			);
-			name = Resources;
 			path = Resources;
 			sourceTree = "<group>";
 		};
@@ -533,7 +529,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7B6E5801E33C38E000CA782 /* FlowLayout.swift in Sources */,
 				B7B6E5751E33BAC4000CA782 /* DataSource.swift in Sources */,
 				B7B6E57E1E33C1FE000CA782 /* DemoView.swift in Sources */,
 				B71A47AB1E3389EC00063592 /* DemoViewController.swift in Sources */,

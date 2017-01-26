@@ -15,7 +15,22 @@ class DemoViewController: UIViewController {
     
     // MARK: - Properties
     let dataSource = DataSource()
-    let flowLayout = FlowLayout()
+    var flowLayout: UICollectionViewFlowLayout = {
+        let layout = UICollectionViewFlowLayout()
+        layout.scrollDirection = .vertical
+        layout.minimumInteritemSpacing = 1.0
+        layout.minimumLineSpacing = 1.0
+        layout.headerReferenceSize = .zero
+        layout.footerReferenceSize = .zero
+        layout.sectionInset = .zero
+        
+        let deviceSize: CGSize = UIScreen.main.bounds.size
+        layout.itemSize = CGSize(
+            width: (deviceSize.width - 3.0) / 3.0,
+            height: (deviceSize.height - 3.0) / 3.0
+        )
+        return layout
+    }()
     
     // MARK: - LifeCycles
     override func loadView() {
