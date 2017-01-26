@@ -14,7 +14,7 @@ class DemoViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     
     // MARK: - Properties
-    let dataSource = DataSource()
+    lazy var dataSource = DataSource()
     var flowLayout: UICollectionViewFlowLayout = {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
