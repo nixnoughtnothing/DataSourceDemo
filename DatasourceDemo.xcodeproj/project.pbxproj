@@ -194,9 +194,7 @@
 		B7B6E56E1E33B93A000CA782 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				B7F198821E3B3C04004F0DBB /* Table */,
-				B7F1987F1E3B3961004F0DBB /* Collection */,
-				B7F198911E3B4539004F0DBB /* TabBarViewController.swift */,
+				B7F198931E3B4F52004F0DBB /* Tab */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -213,8 +211,8 @@
 		B7B6E5711E33B961000CA782 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
-				B7F198851E3B3C62004F0DBB /* Table */,
 				B7F198801E3B3A62004F0DBB /* Collection */,
+				B7F198851E3B3C62004F0DBB /* Table */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
@@ -231,8 +229,8 @@
 		B7B6E57A1E33C1C5000CA782 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B7F198881E3B3DB8004F0DBB /* Table */,
 				B7F198811E3B3A72004F0DBB /* Collection */,
+				B7F198881E3B3DB8004F0DBB /* Table */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -252,7 +250,7 @@
 				B7B6E5741E33BAC4000CA782 /* CollectionDataSource.swift */,
 				B71A47AA1E3389EC00063592 /* CollectionViewController.swift */,
 			);
-			name = Collection;
+			path = Collection;
 			sourceTree = "<group>";
 		};
 		B7F198801E3B3A62004F0DBB /* Collection */ = {
@@ -261,7 +259,7 @@
 				B7B6E56C1E33B88E000CA782 /* CollectionView.xib */,
 				B7B6E5761E33BBBD000CA782 /* CollectionViewCell.xib */,
 			);
-			name = Collection;
+			path = Collection;
 			sourceTree = "<group>";
 		};
 		B7F198811E3B3A72004F0DBB /* Collection */ = {
@@ -270,16 +268,16 @@
 				B7B6E57D1E33C1FE000CA782 /* CollectionView.swift */,
 				B7B6E57B1E33C1DF000CA782 /* CollectionViewCell.swift */,
 			);
-			name = Collection;
+			path = Collection;
 			sourceTree = "<group>";
 		};
 		B7F198821E3B3C04004F0DBB /* Table */ = {
 			isa = PBXGroup;
 			children = (
-				B7F198831E3B3C17004F0DBB /* TableViewController.swift */,
 				B7F1988F1E3B3FE0004F0DBB /* TableDataSource.swift */,
+				B7F198831E3B3C17004F0DBB /* TableViewController.swift */,
 			);
-			name = Table;
+			path = Table;
 			sourceTree = "<group>";
 		};
 		B7F198851E3B3C62004F0DBB /* Table */ = {
@@ -288,7 +286,7 @@
 				B7F198861E3B3C70004F0DBB /* TableView.xib */,
 				B7F1988B1E3B3E66004F0DBB /* TableViewCell.xib */,
 			);
-			name = Table;
+			path = Table;
 			sourceTree = "<group>";
 		};
 		B7F198881E3B3DB8004F0DBB /* Table */ = {
@@ -297,7 +295,18 @@
 				B7F198891E3B3DD4004F0DBB /* TableView.swift */,
 				B7F1988D1E3B3EB5004F0DBB /* TableViewCell.swift */,
 			);
-			name = Table;
+			path = Table;
+			sourceTree = "<group>";
+		};
+		B7F198931E3B4F52004F0DBB /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				B7F1987F1E3B3961004F0DBB /* Collection */,
+				B7F198821E3B3C04004F0DBB /* Table */,
+				B7F198911E3B4539004F0DBB /* TabBarViewController.swift */,
+			);
+			name = Tab;
+			path = Tab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
