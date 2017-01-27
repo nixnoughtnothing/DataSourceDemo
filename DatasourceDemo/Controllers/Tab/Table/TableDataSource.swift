@@ -39,7 +39,6 @@ private extension TableDataSource {
         // INFO: Background Color(Random)
         let hue: CGFloat = CGFloat(arc4random() % 256) / 256
         let color: UIColor = UIColor(hue: hue, saturation: 1.0, brightness: 1.0, alpha: 1.0)
-        
         cell.backgroundColor = color
         
         // INFO: Label
