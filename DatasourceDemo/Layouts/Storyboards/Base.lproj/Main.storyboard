@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="sDg-OP-CGh"/>
+                        <segue destination="z1w-Ez-s6Q" kind="relationship" relationship="rootViewController" id="VD1-VJ-dkI"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Bm-6x-sa3" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -32,6 +32,17 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="36" y="-2"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="qrV-s0-nie">
+            <objects>
+                <viewController id="z1w-Ez-s6Q" userLabel="Table View Controller" customClass="TableViewController" customModule="DatasourceDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="xLB-tU-Kfh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1TC-dp-A2P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="36" y="761"/>
         </scene>
     </scenes>
 </document>
