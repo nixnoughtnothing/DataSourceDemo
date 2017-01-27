@@ -1,5 +1,5 @@
 //
-//  DataSource.swift
+//  CollectionDataSource.swift
 //  DatasourceDemo
 //
 //  Created by nixnoughtnothing on 1/22/17.
@@ -8,10 +8,10 @@
 
 import UIKit
 
-class DataSource: NSObject {}
+class CollectionDataSource: NSObject {}
 
 // MARK: - DataSources
-extension DataSource: UICollectionViewDataSource {
+extension CollectionDataSource: UICollectionViewDataSource {
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
@@ -22,8 +22,8 @@ extension DataSource: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: R.reuseIdentifier.demoViewCollectionViewCell, for: indexPath) else {
-            return DemoViewCollectionViewCell()
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: R.reuseIdentifier.collectionViewCell, for: indexPath) else {
+            return CollectionViewCell()
         }
         
         configureCell(cell: cell, indexPath: indexPath)
@@ -33,8 +33,8 @@ extension DataSource: UICollectionViewDataSource {
 }
 
 // MARK: - Private
-private extension DataSource {
-    func configureCell(cell: DemoViewCollectionViewCell, indexPath: IndexPath) {
+private extension CollectionDataSource {
+    func configureCell(cell: CollectionViewCell, indexPath: IndexPath) {
 
         // INFO: Background Color(Random)
         let hue: CGFloat = CGFloat(arc4random() % 256) / 256

@@ -1,5 +1,5 @@
 //
-//  DemoViewCollectionViewCell.swift
+//  CollectionViewCell.swift
 //  DatasourceDemo
 //
 //  Created by nixnoughtnothing on 1/22/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DemoViewCollectionViewCell: UICollectionViewCell {
+class CollectionViewCell: UICollectionViewCell {
     // MARK: - Outlets
     @IBOutlet weak var label: UILabel!
     

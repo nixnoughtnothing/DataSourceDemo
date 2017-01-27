@@ -1,5 +1,5 @@
 //
-//  DemoView.swift
+//  CollectionView.swift
 //  DatasourceDemo
 //
 //  Created by nixnoughtnothing on 1/22/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DemoView: UIView {
+class CollectionView: UIView {
 
     /*
     // Only override draw() if you perform custom drawing.

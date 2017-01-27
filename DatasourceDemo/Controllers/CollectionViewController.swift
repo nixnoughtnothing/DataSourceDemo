@@ -1,5 +1,5 @@
 //
-//  DemoViewController.swift
+//  CollectionViewController.swift
 //  DatasourceDemo
 //
 //  Created by nixnoughtnothing on 1/21/17.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class DemoViewController: UIViewController {
+class CollectionViewController: UIViewController {
     
     // MARK: - Outlets
     @IBOutlet weak var collectionView: UICollectionView!
     
     // MARK: - Properties
-    lazy var dataSource = DataSource()
+    lazy var dataSource = CollectionDataSource()
     var flowLayout: UICollectionViewFlowLayout = {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
@@ -34,8 +34,8 @@ class DemoViewController: UIViewController {
     
     // MARK: - LifeCycles
     override func loadView() {
-        if let demoView = R.nib.demoView.firstView(owner: self) {
-            self.view = demoView
+        if let collectionView = R.nib.collectionView.firstView(owner: self) {
+            self.view = collectionView
         }
     }
 
@@ -47,21 +47,21 @@ class DemoViewController: UIViewController {
 }
 
 // MARK: - UICollectionViewDelegate
-extension DemoViewController: UICollectionViewDelegate {
+extension CollectionViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("didSelectItemAt: \(indexPath.row)")
     }
 }
 
 // MARK: - Private
-private extension DemoViewController {
+private extension CollectionViewController {
     
     func setupNavigation() {
         self.navigationItem.title = "Separating DataSource Demo"
     }
     
     func setupCollectionView() {
-        collectionView.register(R.nib.demoViewCollectionViewCell)
+        collectionView.register(R.nib.collectionViewCell)
         collectionView.dataSource = dataSource
         collectionView.delegate = self
         collectionView.collectionViewLayout = flowLayout
