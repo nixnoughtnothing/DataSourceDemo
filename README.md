@@ -48,3 +48,6 @@ extension TableDataSource: UITableViewDataSource {
     }
 }
 ```
+
+# In more detail
+https://github.com/nixnoughtnothing/DataSourceDemo/tree/master/DatasourceDemo/Controllers/Tab
