@@ -4,6 +4,8 @@ Separating DataSource from VC (example)
 e.g.
 TableView
 ```
+// INFO: TableViewController.swift
+
 import UIKit
 
 class TableViewController: UIViewController {
@@ -23,6 +25,7 @@ class TableViewController: UIViewController {
 ```
 
 ```
+// INFO: TableDataSource.swift
 
 import UIKit
 
