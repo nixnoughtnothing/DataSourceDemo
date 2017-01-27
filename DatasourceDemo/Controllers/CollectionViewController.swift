@@ -41,7 +41,7 @@ class CollectionViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupNavigation()
+        self.navigationItem.title = "Separating CollectionDataSource Demo"
         setupCollectionView()
     }
 }
@@ -55,10 +55,6 @@ extension CollectionViewController: UICollectionViewDelegate {
 
 // MARK: - Private
 private extension CollectionViewController {
-    
-    func setupNavigation() {
-        self.navigationItem.title = "Separating DataSource Demo"
-    }
     
     func setupCollectionView() {
         collectionView.register(R.nib.collectionViewCell)
