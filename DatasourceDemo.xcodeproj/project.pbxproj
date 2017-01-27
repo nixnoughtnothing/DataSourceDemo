@@ -29,6 +29,7 @@
 		B7F1988C1E3B3E66004F0DBB /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7F1988B1E3B3E66004F0DBB /* TableViewCell.xib */; };
 		B7F1988E1E3B3EB5004F0DBB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F1988D1E3B3EB5004F0DBB /* TableViewCell.swift */; };
 		B7F198901E3B3FE0004F0DBB /* TableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F1988F1E3B3FE0004F0DBB /* TableDataSource.swift */; };
+		B7F198921E3B4539004F0DBB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F198911E3B4539004F0DBB /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		B7F1988B1E3B3E66004F0DBB /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		B7F1988D1E3B3EB5004F0DBB /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		B7F1988F1E3B3FE0004F0DBB /* TableDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableDataSource.swift; sourceTree = "<group>"; };
+		B7F198911E3B4539004F0DBB /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		CBC80DA3B43C8DCD8D484F97 /* Pods-DatasourceDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatasourceDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DatasourceDemoUITests/Pods-DatasourceDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E97121DD54AA61D3CFEB042C /* Pods_DatasourceDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DatasourceDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -194,6 +196,7 @@
 			children = (
 				B7F198821E3B3C04004F0DBB /* Table */,
 				B7F1987F1E3B3961004F0DBB /* Collection */,
+				B7F198911E3B4539004F0DBB /* TabBarViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -605,6 +608,7 @@
 				B71A47A91E3389EC00063592 /* AppDelegate.swift in Sources */,
 				B7F1988A1E3B3DD4004F0DBB /* TableView.swift in Sources */,
 				B7F198901E3B3FE0004F0DBB /* TableDataSource.swift in Sources */,
+				B7F198921E3B4539004F0DBB /* TabBarViewController.swift in Sources */,
 				B7B6E56B1E33B7EF000CA782 /* R.generated.swift in Sources */,
 				B7B6E57C1E33C1DF000CA782 /* CollectionViewCell.swift in Sources */,
 			);

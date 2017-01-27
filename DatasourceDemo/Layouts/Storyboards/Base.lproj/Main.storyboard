@@ -17,32 +17,53 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="z1w-Ez-s6Q" kind="relationship" relationship="rootViewController" id="VD1-VJ-dkI"/>
+                        <segue destination="9Op-Hd-Owg" kind="relationship" relationship="rootViewController" id="tDi-Bn-XZf"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Bm-6x-sa3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1207" y="45"/>
+            <point key="canvasLocation" x="-2161" y="106"/>
         </scene>
-        <!--Collection View Controller-->
+        <!--Tab Bar View Controller-->
+        <scene sceneID="ZCG-Pe-oEt">
+            <objects>
+                <tabBarController id="9Op-Hd-Owg" customClass="TabBarViewController" customModule="DatasourceDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="iYl-jp-ybs"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="qur-gB-kNn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="z1w-Ez-s6Q" kind="relationship" relationship="viewControllers" id="kQ9-V0-IWH"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="U9y-yA-fCX"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qsq-B8-rgz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1204" y="106"/>
+        </scene>
+        <!--CollectionView-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="CollectionViewController" customModule="DatasourceDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="CollectionView" id="G5J-0B-Jpu"/>
                     <navigationItem key="navigationItem" id="k6E-gD-68l"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="36" y="-2"/>
+            <point key="canvasLocation" x="193" y="562"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="qrV-s0-nie">
             <objects>
                 <viewController id="z1w-Ez-s6Q" userLabel="Table View Controller" customClass="TableViewController" customModule="DatasourceDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="TableView" id="oB9-Cr-7IQ"/>
                     <navigationItem key="navigationItem" id="xLB-tU-Kfh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1TC-dp-A2P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="36" y="761"/>
+            <point key="canvasLocation" x="193" y="-309"/>
         </scene>
     </scenes>
 </document>
