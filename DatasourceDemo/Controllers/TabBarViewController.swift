@@ -13,6 +13,7 @@ class TabBarViewController: UITabBarController {
     // MARK: LifeCycles
     override func viewDidLoad() {
         super.viewDidLoad()
+}
     }
 }
 
