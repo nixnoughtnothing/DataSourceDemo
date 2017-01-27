@@ -25,7 +25,6 @@ class TableViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "Separating TableDataSource Demo"
         tableView.register(R.nib.tableViewCell)
         tableView.dataSource = dataSource
         tableView.delegate = self
