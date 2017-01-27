@@ -164,10 +164,10 @@
 		B71A47A71E3389EC00063592 /* DatasourceDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B7B6E57A1E33C1C5000CA782 /* Views */,
 				B7B6E56E1E33B93A000CA782 /* Controllers */,
 				B7B6E5701E33B957000CA782 /* Layouts */,
 				B7B6E5831E33D01B000CA782 /* Resources */,
-				B7B6E57A1E33C1C5000CA782 /* Views */,
 				B71A47A81E3389EC00063592 /* AppDelegate.swift */,
 			);
 			path = DatasourceDemo;
@@ -305,7 +305,6 @@
 				B7F198821E3B3C04004F0DBB /* Table */,
 				B7F198911E3B4539004F0DBB /* TabBarViewController.swift */,
 			);
-			name = Tab;
 			path = Tab;
 			sourceTree = "<group>";
 		};
