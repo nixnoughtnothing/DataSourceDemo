@@ -1,5 +1,6 @@
 # DataSourceDemo
-Separating DataSource from VC (example)
+Separating DataSource from VC (example)  
+###### Written in `Swift 3.0.2`
 
 e.g.
 TableView
