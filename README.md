@@ -1,6 +1,6 @@
 # DataSourceDemo
 Separating DataSource from VC (example)  
-###### Written in `Swift 3.0.2`
+###### Written in `Swift 3.0.2(Xcode 8.2.1)`
 
 e.g.
 TableView
